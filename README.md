@@ -1,15 +1,17 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Lucas Tirard</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
   <header>
-    <img src="images/Profile.jpg" alt="Photo de Lucas Tirard">
+    <img src="images/profile.jpg" alt="Photo de Lucas Tirard">
     <div class="header-info">
       <h1>Lucas Tirard</h1>
-      <p class="role">Développeur</p>
+      <p class="role">Développeur Informatique</p>
       <div class="contact">
         <span aria-label="Localisation">📍 Fécamp</span> |
         <span aria-label="Email">✉️ lucas.tirard@etik.com</span> |
@@ -21,7 +23,7 @@
   <main>
     <section class="about">
       <h2>À propos</h2>
-      <p>Je suis développeur avec des expériences en applications desktop (WPF C#), applications web (Symfony / PHP) et projets IoT. J'aime concevoir des solutions pratiques, écrire du code maintenable et apprendre de nouvelles technologies.</p>
+      <p>Je suis un développeur informatique avec des expériences en applications desktop (C# / .NET / WPF), applications web (PHP / Symfony) et projets IoT. J'aime concevoir des solutions pratiques, écrire du code maintenable et apprendre de nouvelles technologies.</p>
     </section>
 
     <section class="skills">
@@ -59,14 +61,26 @@
     </section>
 
     <section class="projects">
-      <a href="pages/gestion-acces.html" class="project-card" title="Projet Gestion d'accès (WPF)">
+      <h2>Projets</h2>
+      
+      <a href="pages/WPF.html" class="project-card" title="Projet Gestion d'accès (WPF)">
         <h2>Gestion d'accès (WPF)</h2>
         <p>Application WPF en C# pour la gestion des accès des bâtiments de GSP.</p>
       </a>
 
-      <a href="pages/plateforme-stages.html" class="project-card" title="Projet Plateforme de stages (Symfony)">
+      <a href="pages/Symfony.html" class="project-card" title="Projet Plateforme de stages (Symfony)">
         <h2>Plateforme de stages (Symfony)</h2>
         <p>Application web Symfony pour la gestion des entreprises et stages.</p>
+      </a>
+
+      <a href="pages/Kdoret.html" class="project-card" title="Site Espace Kdoret (Paheko CMS)">
+        <h2>Site Espace Kdoret (Paheko CMS)</h2>
+        <p>Création d’un site vitrine pour le fablab de Rostrenen.</p>
+      </a>
+
+      <a href="pages/BubbleTea.html" class="project-card" title="Système IoT (Arduino)">
+        <h2>Système IoT (Arduino)</h2>
+        <p>Prototype de surveillance de température connecté.</p>
       </a>
     </section>
   </main>
